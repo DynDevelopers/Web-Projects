@@ -1,0 +1,36 @@
+table {
+  margin-top: 10%;
+  margin-left: 20%;
+  border: 3px solid #379;
+  background-color: rgba(255, 0, 0, 0.1);
+
+}
+table tr th {
+  padding: 20px;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: rgba(255, 0, 0, 0.3);
+  color: white;
+}
+
+table tr td {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+table tr td button {
+  width: 150px;
+  height: 30px;
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+table tr td button:hover {
+  border-width: medium;
+  font-weight: bold;
+}

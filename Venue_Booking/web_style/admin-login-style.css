@@ -1,0 +1,73 @@
+body div {
+  text-align: center;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 45px;
+  font-size: 20px;
+  overflow: auto;
+  font-weight: 200;
+  padding: 10px 20px 37px 20px;
+  margin-left: 100px;
+  transition-duration: 0.8s;
+  font-family: sans-serif;
+}
+
+header nav a:hover {
+  background-color: #006984;
+  transition-duration: 0.8s;
+
+}
+h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+input {
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #0094ba;
+  color: #0094ba;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+button:hover {
+  border-color: #006984;
+  border: 1px solid #0094ba;
+  color: #006984;
+  font-weight: 400;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+
+  input {
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+  }
+
+  header nav a {
+    margin-left: 10px;
+    text-align: center;
+  }
+
+   button {
+     font-size: 15px;
+    width: 70px;
+  }
+}

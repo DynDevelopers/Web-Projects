@@ -1,0 +1,88 @@
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 18px 20px;
+  float: left;
+  margin-left: 30px;
+  font-family: sans-serif;
+  transition-duration: 0.5s;
+}
+
+header nav a:hover{
+  transition-duration: 0.5s;
+  background-color: #006984;
+}
+
+header nav p {
+  float: right;
+  color: white;
+  font-size: 20px;
+  margin-top: 16px;
+  margin-right: 50px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+section article {
+  margin-left: 25%;
+  margin-top: 150px;
+  margin-right: 20%;
+  background-color: rgba(0, 0, 0, 0.12);
+  padding: 70px;
+}
+
+section article p {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+section article input {
+  height: 25px;
+  border: 1px solid black;
+}
+
+.values {
+  width: 60px;
+}
+
+.names {
+  width: 200px;
+}
+
+section article h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #379;
+  margin-top: 0px;
+  margin-bottom: 70px;
+}
+
+section article button {
+  margin-top: 50px;
+  margin-left: 30%;
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  border: 2px solid #379;
+  color: #379;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+section article button:hover {
+  font-weight: 600;
+}
+
+section article form h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  margin-left: 40px;
+}
+
+.first {
+  margin-left: 50px;
+}
