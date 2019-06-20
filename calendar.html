@@ -1,0 +1,45 @@
+<!-- 
+Day date("l")
+Date date("d")
+Number of days cal_days_in_month(CAL_GREGORIAN, date("d"), date("Y"))
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/calendar.css">
+    <title>Calendar</title>
+</head>
+<body>
+
+    <div class="booking_form">
+        <form action="">
+            <input type="text" name="" id="" value="user id"> <br>
+            <input type="text" name="" id="" value="venue id"> <br>
+            <input type="number" name="" id="" min="1" max="12" placeholder="select month for booking"> <br>
+            <input onclick="showDateModal()" placeholder="Select Slot" > <br>
+            <textarea name="" id="" cols="60" rows="5" placeholder="Additional Requirement"></textarea> <br>
+            <input type="submit" value="submit">
+        </form>        
+    </div>
+    <div class="container-bg">
+        <div class="container">
+            <span class="head">Choose Slots(slot1: 10:00am to 12:00 pm slot2: 12:15 pm to 2:30pm slot3: 2:30pm to5:30pm)</span>
+            <table class="calendar">
+                <tr id="header">
+                    <td class="days" style="background-color: white; color:black;">Sun</td>
+                    <td class="days" style="background-color: white; color:black;">Mon</td>
+                    <td class="days" style="background-color: white; color:black;">Tue</td>
+                    <td class="days" style="background-color: white; color:black;">Wed</td>
+                    <td class="days" style="background-color: white; color:black;">Thurs</td>
+                    <td class="days" style="background-color: white; color:black;">Fri</td>
+                    <td class="days" style="background-color: white; color:black;">Sat</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="javascript/calendar.js"></script>
+</body>
+</html>
